@@ -1,0 +1,419 @@
+﻿:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+    .main-container,
+    .main-container * {
+        box-sizing: border-box;
+    }
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #000000;
+    overflow: hidden;
+}
+
+/*Посилання "повернутися до сторінки"*/
+.return-page {
+    position: relative;
+    width: 208px;
+    height: 29px;
+    margin: 56px 0 0 70px;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 32;
+}
+    .return-page a {
+        text-decoration: none; 
+    }
+
+.return-to-page {
+    position: relative;
+    color: #ffffff;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.return-page a:hover .return-to-page {
+    text-decoration: underline;
+}
+
+/*"Вітаємо!"*/
+.welcome-message {
+    display: block;
+    position: relative;
+    height: 50px;
+    margin: 109px 0 0 267px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 50px;
+    text-align: left;
+    white-space: nowrap;
+    background: linear-gradient(78deg, rgba(0, 0, 0, 0.7) -54.95%, #ffffff 40.64%);
+    z-index: 2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.flex-row-c {
+    position: relative;
+    width: 1495.005px;
+    height: 919px;
+    margin: 13px 0 0 160px;
+    z-index: 28;
+}
+
+.image {
+    position: absolute;
+    width: 919px;
+    height: 906px;
+    top: 0;
+    left: 576.005px;
+    transform: rotate(90deg);
+    opacity: 0.5;
+    background: url("img1/buble.png") no-repeat center;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+.personal-data-entry {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 13px;
+    top: 13px;
+    left: 77px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 13px;
+    top: 81px;
+    left: 18px;
+    color: #ffffff;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 5;
+}
+
+.post-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 486px;
+    height: 69px;
+    top: 110px;
+    left: 0;
+    padding: 20px 368px 20px 18px;
+    background: rgba(177, 177, 177, 0.1);
+    border: 0.5px solid #b1b1b1;
+    z-index: 6;
+    overflow: hidden;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+
+.post-input {
+    flex-shrink: 0;
+    position: absolute;
+    width: 486px;
+    height: 69px;
+    top: -0.5px;
+    left: -0.5px;
+    background: transparent;
+    border: none;
+    z-index: 8;
+    outline: none;
+}
+
+.enter-post {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 13px;
+    top: 205px;
+    left: 20px;
+    color: #ffffff;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 13px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 486px;
+    height: 69px;
+    top: 234px;
+    left: 0;
+    padding: 20px 350px 20px 18px;
+    background: rgba(177, 177, 177, 0.1);
+    border: 0.5px solid #b1b1b1;
+    z-index: 11;
+    overflow: hidden;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+
+.password-input {
+    flex-shrink: 0;
+    position: absolute;
+    width: 486px;
+    height: 69px;
+    top: -0.5px;
+    left: -0.5px;
+    background: transparent;
+    border: none;
+    z-index: 13;
+    outline: none;
+}
+
+.enter-password {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+}
+
+.rectangle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 329px;
+    left: 18.005px;
+    border: 0.5px solid #b1b1b1;
+    z-index: 15;
+    border-radius: 20px;
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 330px;
+    left: 377.005px;
+    color: #ffffff;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: underline;
+    white-space: nowrap;
+    z-index: 17;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 14px;
+    top: 332px;
+    left: 48.005px;
+    color: #ffffff;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 486px;
+    height: 58px;
+    top: 389px;
+    left: 0px;
+    padding: 18px 202px 18px 202px;
+    cursor: pointer;
+    background: rgba(177, 177, 177, 0.2);
+    border: none;
+    z-index: 18;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+
+.login {
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 232px;
+    height: 56px;
+    top: 500px;
+    left: 0px;
+    padding: 18px 66px;
+    cursor: pointer;
+    background: rgba(177, 177, 177, 0.2);
+    border: none;
+    z-index: 18;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 232px;
+    height: 56px;
+    top: 500px;
+    left: 254px;
+    padding: 18px 66px;
+    cursor: pointer;
+    background: rgba(177, 177, 177, 0.2);
+    border: none;
+    z-index: 18;
+    border-radius: 35px;
+    backdrop-filter: blur(10px);
+}
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 210px;
+    height: 0.5px;
+    margin: 0 auto;
+    top: 475px;
+    left: 0;
+    background: url("img1/Line 8.png") no-repeat center;
+    background-size: cover;
+}
+.line-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 210px;
+    height: 0.5px;
+    margin: 0 auto;
+    top: 475px;
+    left: 274px;
+    background: url("img1/Line 8.png") no-repeat center;
+    background-size: cover;
+}
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 18px;
+    top: 465px;
+    left: 235px;
+    color: #B1B1B1;
+    font-family: "Ysabeau Office";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 29px; 
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 17;
+}

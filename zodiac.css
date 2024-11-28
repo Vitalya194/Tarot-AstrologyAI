@@ -1,0 +1,681 @@
+﻿:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+    .main-container,
+    .main-container * {
+        box-sizing: border-box;
+    }
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+    background: #000000;
+    overflow: hidden;
+}
+
+.flex-row-fea {
+    position: relative;
+    width: 1442px;
+    height: 975px;
+    margin: -274px 0 0 85px;
+    z-index: 36;
+}
+
+.ellipse {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: 0;
+    left: 437px;
+    border-radius: 800px;
+    background: radial-gradient(57.12% 57.12% at 50% 50%, rgba(73, 0, 230, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.ellipse-1 {
+    position: absolute;
+    width: 748px;
+    height: 748px;
+    top: 227px;
+    left: 694px;
+    border-radius: 748px;
+    background: radial-gradient(57.12% 57.12% at 50% 50%, rgba(0, 212, 159, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%);
+    background-size: cover;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.register-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: absolute;
+    width: 228px;
+    height: 62px;
+    top: 294px;
+    left: 954px;
+    padding: 23px 40px 22px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0.5px solid #b1b1b1;
+    z-index: 10;
+    border-radius: 80px;
+}
+
+.register-button-text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 151px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 11;
+}
+
+.logo {
+    position: absolute;
+    width: 50.033px;
+    height: 50.086px;
+    top: 302px;
+    left: 0;
+    background: url("img/logo.svg") no-repeat center;
+    background-size: cover;
+    z-index: 4;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 55px;
+    position: absolute;
+    width: 405px;
+    height: 24.935px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-71.36%, -699.82%);
+    z-index: 5;
+}
+
+.about-shi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 62px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+}
+
+.tarot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 37px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+}
+
+.astrology {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 88px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 53px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 9;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 319px;
+    left: 1208px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 12;
+}
+
+.ellipse-2 {
+    position: absolute;
+    width: 369.382px;
+    height: 364.457px;
+    top: 340px;
+    left: 278px;
+    background: url("img3/Ellipse 33.png") no-repeat center;
+    background-size: cover;
+    z-index: 13;
+}
+
+.ellipse-3 {
+    position: absolute;
+    width: 223.219px;
+    height: 242.386px;
+    top: 377px;
+    left: 315px;
+    background: url("img3/Ellipse 34.png") no-repeat center;
+    background-size: cover;
+    z-index: 14;
+}
+
+.zodiac-signs-4 {
+    position: absolute;
+    width: 427px;
+    height: 86px;
+    top: 479px;
+    left: 5px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 15;
+}
+
+.signs {
+    position: relative;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: left;
+    background: linear-gradient(78deg, rgba(0, 0, 0, 0.7), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.zodiac {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: left;
+}
+
+.zodiac-signs-description {
+    position: absolute;
+    width: 1255px;
+    height: 87px;
+    top: 629px;
+    left: 5px;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 16;
+}
+
+.zodiac-signs-5 {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+
+.text-a {
+    position: relative;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 93px;
+    border-radius: 20px;
+    background: rgba(177, 177, 177, 0.20);
+    background-size: cover;
+}
+.capricorn {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 780px;
+    left: 93px;
+    background: url("img3/capricorn.png") no-repeat center;
+    background-size: cover;
+    z-index: 20;
+}
+.rectangle2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 283px;
+    border-radius: 20px;
+    background: rgba(177, 177, 177, 0.20);
+}
+.aquarius {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 283px;
+    background: url(./assets/images/118a6679-703e-4a41-b18c-369e291e8a81.png) no-repeat center;
+    background-size: cover;
+    z-index: 23;
+}
+
+.pisces {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 474px;
+    background: url(./assets/images/5aa1f0d7-b4f5-4ce3-b3f8-c601a205f2e4.png) no-repeat center;
+    background-size: cover;
+    z-index: 26;
+}
+
+.aries {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 668px;
+    background: url(./assets/images/8b4779e2-6578-4676-b661-a0597e9f7ee2.png) no-repeat center;
+    background-size: cover;
+    z-index: 29;
+}
+
+.taurus {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 866px;
+    background: url(./assets/images/fb3f8fcc-4d65-4780-8aa4-a38f6e5aff86.png) no-repeat center;
+    background-size: cover;
+    z-index: 32;
+}
+
+.gemini {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 780px;
+    left: 1065px;
+    background: url(./assets/images/edf018c1-729f-42de-aafb-c4497fce232a.png) no-repeat center;
+    background-size: cover;
+    z-index: 35;
+}
+
+.dec-jan {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 78px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+}
+
+.jan-feb {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 271px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 24;
+}
+
+.feb-mar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 459px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 27;
+}
+
+.text-e {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 653px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 30;
+}
+
+.text-f {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 847px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 33;
+}
+
+.text-10 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 29px;
+    top: 906px;
+    left: 1048px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 36;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1072px;
+    height: 100px;
+    margin: 0 0 0 178px;
+    z-index: 54;
+}
+
+.img-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/66b27fa7-61bf-4d72-abc7-f7690cbe77ef.png) no-repeat center;
+    background-size: cover;
+    z-index: 39;
+}
+
+.img-8 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/a54bf359-7b66-4a2f-a3c5-89af9cb8efcf.png) no-repeat center;
+    background-size: cover;
+    z-index: 42;
+}
+
+.pic-6 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/858d9fc9-d8b2-49bc-bb54-e925984455ec.png) no-repeat center;
+    background-size: cover;
+    z-index: 45;
+}
+
+.pic-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/8c108573-a54f-4bfd-9427-f7bccf011263.png) no-repeat center;
+    background-size: cover;
+    z-index: 48;
+}
+
+.pic-8 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/51d72d8d-5ecc-4578-b544-36884e747556.png) no-repeat center;
+    background-size: cover;
+    z-index: 51;
+}
+
+.img-9 {
+    flex-shrink: 0;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: url(./assets/images/64263f8e-3ff0-42dd-be77-1f399cc108c6.png) no-repeat center;
+    background-size: cover;
+    z-index: 54;
+}
+
+.flex-row-cc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1108px;
+    height: 29px;
+    margin: 26px 0 0 164px;
+    z-index: 55;
+}
+
+.text-11 {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 40;
+}
+
+.july-august {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 43;
+}
+
+.august-september {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 46;
+}
+
+.september-october {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 49;
+}
+
+.october-november {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 52;
+}
+
+.november-december {
+    flex-shrink: 0;
+    position: relative;
+    height: 29px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 55;
+}
+
+.ellipse-6 {
+    position: absolute;
+    width: 1440px;
+    height: 772px;
+    top: 756px;
+    left: 0;
+    border-radius: 1440px;
+    background: radial-gradient(57.12% 57.12% at 50% 50%, rgba(167, 53, 250, 0.40) 0%, rgba(0, 0, 0, 0.00) 100%);
+    z-index: 2;
+}

@@ -1,0 +1,1889 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+    --border-color: #B1B1B1;
+}
+
+.main-container {
+    overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+    box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 5873px;
+    margin: 0 auto;
+    background: #000000;
+    border: 1px solid #b1b1b1;
+    overflow: hidden;
+}
+.main-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 173px;
+    position: absolute;
+    width: 1440px;
+    height: 5905px;
+    top: -1px;
+    left: -1px;
+}
+.main-page {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 1024px;
+    background: #000000;
+    z-index: 1;
+}
+.flex-column-ae {
+    position: absolute;
+    width: 1971px;
+    height: 1279px;
+    top: -512px;
+    left: 85px;
+    z-index: 15;
+}
+.ellipse {
+    position: absolute;
+    width: 1149px;
+    height: 1027px;
+    top: 512px;
+    left: 907px;
+    right: 616px;
+    bottom: 509px;
+    background: url("img/ellipse-6.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+.navigation {
+    position: absolute;
+    width: 1265px;
+    height: 62px;
+    top: 535px;
+    left: 0;
+    z-index: 15;
+}
+/* Container for the button */
+.register {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    top: 3px; /* Adjust the vertical position as seen in the screenshot */
+    left: 1039px;
+    right: 173px;
+    transform: translateX(-50%); /* Ensure the button is centered horizontally */
+    z-index: 20;
+}
+
+/* Styling for the button link */
+.register-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 228px;
+    height: 62px;
+    padding: 23px 40px 22px 40px; /* Adjust padding to create desired inner spacing */
+    border: 0.5px solid #B1B1B1; /* Set border to white */
+    border-radius: 80px; /* Creates a rounded button */
+    text-decoration: none; /* Remove default link underline */
+    color: #ffffff; /* Set text color to white */
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    background: transparent; /* Set button background to transparent */
+    cursor: pointer; /* Changes the cursor to pointer when hovering */
+    line-height: 1;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+    /* Optional: hover effect for the button */
+    .register-link:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Adds a slight background color on hover */
+    }
+
+
+.register-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 151px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+    white-space: normal;
+    z-index: 23;
+}
+
+.logo {
+    position: absolute;
+    width: 50.033px;
+    height: 50.086px;
+    top: 8px;
+    left: 0;
+    background: url("img/logo.svg") no-repeat center;
+    background-size: cover;
+    z-index: 16;
+}
+.navigation-3 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 55px;
+    position: absolute;
+    width: 405px;
+    height: 24.935px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49.51%, -48.13%);
+    z-index: 17;
+}
+
+.about-shi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 62px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 18;
+}
+.tarot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 37px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 19;
+}
+.astrology {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 88px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 20;
+}
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 53px;
+    height: 30px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 21;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 12px;
+    top: 25px;
+    left: 1208px;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 24;
+}
+a {
+    color: #B1B1B1; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #B1B1B1;
+}
+
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 55px;
+    position: absolute;
+    width: 790px;
+    height: 498px;
+    top: 781px;
+    left: 475px;
+    z-index: 6;
+}
+.heading {
+    flex-shrink: 0;
+    position: relative;
+    width: 787px;
+    height: 243px;
+    font-size: 0px;
+    z-index: 7;
+}
+.your-personal {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 557px;
+    height: 55px;
+    margin: 0 0 0 0;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: right;
+    background: linear-gradient(12.47deg, rgba(0, 0, 0, 0.7), #ffffff);
+    z-index: 9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tarot-astrologer {
+    position: relative;
+    width: 703px;
+    height: 53px;
+    margin: 40px 0 0 84px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: right;
+    z-index: 8;
+}
+.tarot-4 {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.and {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: right;
+}
+.tarot-5 {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: right;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.based-on-shi {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    width: 465px;
+    height: 55px;
+    margin: 40px 0 0 60px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 86px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: right;
+    background: linear-gradient(12.41deg, rgba(0, 0, 0, 0.7), #ffffff);
+    z-index: 10;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.question-answer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    width: 685px;
+    height: 72px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 11;
+}
+.try-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 240.567px;
+    height: 73px;
+    padding: 0;
+    z-index: 12;
+}
+
+.rectangle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(177, 177, 177, 0.1);
+    border: 0.5px solid #B1B1B1;
+    border-radius: 80px;
+    backdrop-filter: blur(10px);
+    z-index: 13;
+}
+
+.try {
+    position: relative;
+    color: #ffffff;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    z-index: 14;
+    white-space: nowrap;
+}
+
+.flex-column-ac {
+    position: absolute;
+    width: 1326px;
+    height: 954px;
+    top: 69px;
+    left: -470px;
+    z-index: 5;
+}
+.image {
+    position: absolute;
+    width: 657px;
+    height: 955px;
+    top: 0;
+    left: 424px;
+    /*background: url(./assets/images/dec7bc2c-a50a-4fad-bd32-ad1a41e65cae.png)*/
+    /*background: url("img/image 3.png")*/
+    no-repeat center;
+    background-size: cover;
+    z-index: 2;
+}
+.ellipse-6 {
+    position: absolute;
+    width: 1279px;
+    height: 380px;
+    top: 764px;
+    left: 470px;
+    background: url("img/Ellipse6.png");
+    no-repeat center;
+    background-size: cover;
+    z-index: 5;
+}
+.line {
+    position: absolute;
+    width: 856px;
+    height: 0.5px;
+    top: 953.5px;
+    left: 470px;
+    background: url(./assets/images/33b2a2d5-59dd-4e57-9702-67ed4eb44e3d.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 4;
+}
+
+/*Page 2*/
+.shi-fortune-telling {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 876px;
+    background: #000000;
+    z-index: 25;
+}
+.ellipse-7 {
+    position: absolute;
+    /*width: 383.934px;*/
+    width: 342px;
+    /*height: 252px;*/
+    height: 180px;
+    top: 34px;
+    left: 184.125px;
+    background: url("img/ellipse-7.png");
+    no-repeat center;
+    background-size: cover;
+    z-index: 37;
+}
+.image-8 {
+    position: absolute;
+    width: 1442.369px;
+    height: 843.901px;
+    top: 36.181px;
+    left: 50%;
+    background: url("/.idea/img/image4.png")
+    no-repeat center;
+    background-size: cover;
+    transform: translate(-49.92%, 0);
+    z-index: 26;
+}
+.how-to-fortune-tell {
+    position: absolute;
+    width: 816px;
+    height: 41px;
+    top: 90px;
+    left: 50%;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 41px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    transform: translate(-50%, 0);
+    z-index: 38;
+}
+.how-fortune-telling {
+    position: relative;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: right;
+    background: linear-gradient(12.47deg, rgba(0, 0, 0, 0.7), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.empty {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: right;
+}
+.fortune-telling {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: right;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.question-mark {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: right;
+}
+.service-description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    width: 646px;
+    height: 57px;
+    top: 195px;
+    left: calc(50% - 323px);
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 37;
+}
+.star {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 284px;
+    left: 126px;
+    background: url("img/StarG.svg")
+    no-repeat center;
+    background-size: cover;
+    z-index: 29;
+}
+.group {
+    position: absolute;
+    width: 1153px;
+    height: 450px;
+    top: 316px;
+    left: 161px;
+    z-index: 7;
+    border-radius: 30px;
+}
+.flex-row-af {
+    position: relative;
+    width: 1153px;
+    height: 259px;
+    margin: 0 0 0 0;
+    z-index: auto;
+}
+.card {
+    position: absolute;
+    width: 335px;
+    height: 130px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(254deg, rgba(255, 255, 255, 0.5), rgba(0, 212, 159, 0.5));
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+.analysis-system {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 280px;
+    height: 87px;
+    top: 19px;
+    left: 20px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.card-9 {
+    position: absolute;
+    width: 392px;
+    height: 178px;
+    top: 81px;
+    left: 761px;
+    background: linear-gradient(254deg, rgba(255, 255, 255, 0.5), rgba(167, 53, 250, 0.5));
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+.artificial-intelligence {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 329px;
+    height: 116px;
+    top: 39px;
+    left: 19px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 3;
+}
+.card-a {
+    position: relative;
+    width: 286px;
+    height: 132px;
+    margin: 59px 0 0 155px;
+    background: linear-gradient(254deg, rgba(255, 255, 255, 0.5), rgba(66, 0, 207, 0.10));
+    overflow: hidden;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+.ai-response {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    width: 238px;
+    height: 87px;
+    top: 22px;
+    left: 19px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 1;
+}
+.star-b {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    top: 358px;
+    left: 882px;
+    background: url(img/StarP.svg)
+    no-repeat center;
+    background-size: cover;
+    z-index: 28;
+}
+.star-c {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 605px;
+    left: 286px;
+    background: url(img/StarB.svg)
+    no-repeat center;
+    background-size: cover;
+    z-index: 29;
+}
+.start-fortune-telling {
+    position: absolute;
+    width: 227px;
+    height: 17px;
+    top: 758px;
+    left: 1125px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 40;
+}
+.start-fortune-telling-d {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.cards {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 830px;
+    font-size: 0px;
+    background: #000000;
+    z-index: 41;
+}
+.tarot-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 847px;
+    height: 58px;
+    margin: 112px 0 0 290px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 43;
+}
+.flex-row-fd {
+    position: absolute;
+    height: 1371px;
+    top: -230px;
+    right: -374px;
+    left: -383px;
+    z-index: 59;
+}
+.ellipse-e {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/97fce78f-be84-4139-b138-30ee2c65d05d.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 44;
+    border-radius: 50%;
+}
+.card-meanings {
+    position: absolute;
+    width: 473px;
+    height: 48px;
+    top: 230px;
+    left: 50%;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    transform: translate(-50.42%, 0);
+    z-index: 42;
+}
+.meanings {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: right;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card-meanings-f {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: right;
+}
+.block-10 {
+    position: absolute;
+    width: 1030.296px;
+    height: 596px;
+    top: 463px;
+    left: 50%;
+    transform: translate(-49.55%, 0);
+    z-index: 46;
+}
+.cards-11 {
+    position: absolute;
+    width: 1030.296px;
+    height: 518.844px;
+    top: 0;
+    left: 0;
+    z-index: 48;
+    border-radius: 17px;
+}
+.month {
+    position: absolute;
+    width: 305.405px;
+    height: 518.844px;
+    top: 0;
+    left: 363.292px;
+    background: #ffffff;
+    z-index: 49;
+    overflow: hidden;
+    border-radius: 17px;
+}
+.month-12 {
+    position: relative;
+    width: 309px;
+    height: 595px;
+    margin: -6px 0 0 -3.603px;
+    background: url(./assets/images/dfb25030-fe4e-4a84-bf0a-92fc79ac1695.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 50;
+    border-radius: 20px;
+}
+.left {
+    position: absolute;
+    width: 209.293px;
+    height: 350.366px;
+    top: 84px;
+    left: 107px;
+    border: 1px solid #ffffff;
+    filter: blur(7.5px);
+    z-index: 53;
+    overflow: hidden;
+    border-radius: 17px;
+}
+.screenshot {
+    position: absolute;
+    width: 233px;
+    height: 538px;
+    top: -1px;
+    left: -1px;
+    background: url(./assets/images/42d5a5e9913cfee2f513f72c135bcf119e5333d3.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 54;
+}
+.right {
+    position: absolute;
+    width: 206.598px;
+    height: 350.366px;
+    top: 84px;
+    left: 715.698px;
+    border: 1px solid #ffffff;
+    filter: blur(7.5px);
+    z-index: 57;
+    overflow: hidden;
+    border-radius: 17px;
+}
+.screenshot-13 {
+    position: relative;
+    width: 206px;
+    height: 376px;
+    margin: -0.28px 0 0 0.47px;
+    background: url(./assets/images/070bb206c68cb4716d962eb18d5ae552153b523b.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 58;
+}
+.left-14 {
+    position: absolute;
+    width: 143px;
+    height: 239px;
+    top: 140px;
+    left: 0;
+    border: 1px solid #ffffff;
+    filter: blur(10px);
+    z-index: 51;
+    overflow: hidden;
+    border-radius: 17px;
+}
+.screenshot-15 {
+    position: absolute;
+    width: 144px;
+    height: 239px;
+    top: -1px;
+    left: -1px;
+    background: url(./assets/images/de3f43cb4541ac55b41ef4cfdb4eb07399a8e5f0.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 52;
+}
+.right-16 {
+    position: absolute;
+    width: 138px;
+    height: 239px;
+    top: 140px;
+    left: 892.296px;
+    border: 1px solid #ffffff;
+    filter: blur(10px);
+    z-index: 55;
+    overflow: hidden;
+    border-radius: 17px;
+}
+.tarot-card {
+    position: relative;
+    width: 137px;
+    height: 239px;
+    margin: 0 0 0 6.704px;
+    background: url(./assets/images/7c90342737c860483ca92f34a28e938b7739a5df.png)
+    no-repeat center;
+    background-size: contain;
+    z-index: 56;
+}
+.runner {
+    position: absolute;
+    width: 895px;
+    height: 286px;
+    top: 310px;
+    left: 66px;
+    background: url(./assets/images/d95f6cc1-ade0-4bd2-adfc-8f63912aefc2.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 47;
+}
+.ellipse-17 {
+    position: absolute;
+    width: 748px;
+    height: 748px;
+    top: 623px;
+    left: 1449px;
+    background: url("img/Ellipse 17.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 45;
+    border-radius: 50%;
+}
+.arrows {
+    position: absolute;
+    width: 1227.5px;
+    height: 32px;
+    top: 706px;
+    left: 489px;
+    z-index: 59;
+}
+.vector {
+    position: absolute;
+    width: 34.848px;
+    height: 31.348px;
+    top: -0.18px;
+    left: 1193px;
+    background: url(./assets/images/47681626-b1e9-479f-a3b6-e6f2e6897f0a.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 61;
+}
+.vector-18 {
+    position: absolute;
+    width: 34.848px;
+    height: 31.348px;
+    top: 0.83px;
+    left: -0.35px;
+    background: url(./assets/images/eda3444c-e9db-404a-8e37-91054ef6603c.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 60;
+}
+.astrology-subcategories {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 820px;
+    z-index: 62;
+}
+.subcategories {
+    position: relative;
+    width: 1255px;
+    height: 389.046px;
+    margin: 345px 0 0 92px;
+    z-index: 65;
+}
+.natal-chart {
+    position: absolute;
+    width: 255px;
+    height: 372.046px;
+    top: 0;
+    left: 0;
+    z-index: 66;
+}
+.rectangleback1 {
+    position: relative;
+    width: 139.046px;
+    height: 139.046px;
+    margin: 0 0 0 59px;
+    background: rgba(177, 177, 177, 0.2);
+    border-radius: 20px;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 104.694px;
+    height: 104.694px;
+    background: url("img/natalcard.png") no-repeat center;
+    background-size: cover;
+    z-index: 69;
+}
+
+.natal-chart-19 {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 47px 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 68;
+}
+.deep-aspects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 241px;
+    height: 116px;
+    margin: 40px 0 0 8px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 67;
+}
+.zodiac-signs {
+    position: absolute;
+    width: 225px;
+    height: 389.046px;
+    top: 0;
+    left: 331px;
+    z-index: 70;
+}
+.frame {
+    position: absolute;
+    width: 225px;
+    height: 389.046px;
+    top: 0;
+    left: 0;
+    z-index: 71;
+}
+.rectangleback2 {
+    position: relative;
+    width: 139.046px;
+    height: 139.046px;
+    margin: 0 0 0 59px;
+    background: rgba(177, 177, 177, 0.2);
+    border-radius: 20px;
+}
+.icon-1a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 104.694px;
+    height: 104.694px;
+    background: url("img/zodiac.png") no-repeat center;
+    background-size: cover;
+    z-index: 72;
+}
+.zodiac-signs-1b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 225px;
+    height: 30px;
+    margin: 47px 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 73;
+}
+.planetary-influence {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 225px;
+    height: 116px;
+    margin: 41px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 74;
+}
+.horoscope {
+    position: absolute;
+    width: 262px;
+    height: 373px;
+    top: 0;
+    left: 630px;
+    z-index: 75;
+}
+.rectangleback3 {
+    position: relative;
+    width: 139.046px;
+    height: 139.046px;
+    margin: 0 0 0 59px;
+    background: rgba(177, 177, 177, 0.2);
+    border-radius: 20px;
+}
+.icon-1c {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 104.694px;
+    height: 104.694px;
+    background: url("img/goroskop.png") no-repeat center;
+    background-size: cover;
+    z-index: 78;
+}
+.horoscope-1d {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 47px 0 0 65px;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 77;
+}
+.predict-events {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 262px;
+    height: 116px;
+    margin: 40.954px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 76;
+}
+.terminology {
+    position: absolute;
+    width: 289px;
+    height: 373px;
+    top: 0;
+    left: 966px;
+    z-index: 79;
+}
+.icon-1e {
+    position: relative;
+    width: 139.046px;
+    height: 139.046px;
+    margin: 0 0 0 75px;
+    background: url("img/termilogy.png") no-repeat center;
+    background-size: cover;
+    z-index: 82;
+}
+
+.terminology-25 {
+    display: block;
+    position: relative;
+    height: 30px;
+    margin: 47px 0 0 53px;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 81;
+}
+.elements-houses-planets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 289px;
+    height: 116px;
+    margin: 41px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: center;
+    z-index: 80;
+}
+.line-26 {
+    position: relative;
+    width: 685px;
+    height: 0.5px;
+    margin: 85.5px 0 0 0;
+    background: url(./assets/images/7edbc210-8e5b-4416-a09f-bd0221e16d65.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 92;
+}
+.ellipse-27 {
+    position: absolute;
+    width: 354.803px;
+    height: 150.916px;
+    top: 39.953px;
+    left: 184.912px;
+    background: url("img/ellipse-7.png") no-repeat center;
+  /*  background-size: cover;*/
+    z-index: 91;
+}
+.mysterious-astrology {
+    position: absolute;
+    width: 682px;
+    height: 82px;
+    top: 77px;
+    left: 90px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 82px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 63;
+}
+.mysterious {
+    position: relative;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: left;
+    background: linear-gradient(12.47deg, rgba(0, 0, 0, 0.7), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.space {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: left;
+}
+.astrology-28 {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: left;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.natal-chart-29 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 1260px;
+    height: 58px;
+    top: 223px;
+    left: 90px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    text-overflow: ellipsis;
+    z-index: 64;
+    overflow: hidden;
+}
+/**/
+.founder {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 1024px;
+    z-index: 93;
+}
+.concept-author {
+    position: absolute;
+    width: 597px;
+    height: 79px;
+    top: -9px;
+    left: 87px;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 79px;
+    text-align: right;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 97;
+}
+.author-2a {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 100px;
+    text-align: right;
+    background: linear-gradient(90deg, #00d49f, #a735f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.concept {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 86px;
+    text-align: right;
+}
+.photo-background {
+    position: absolute;
+    width: 1079.907px;
+    height: 1115.449px;
+    top: 53.343px;
+    left: 197.82px;
+    background: url("img/founder.png") no-repeat center;
+    background-size: cover;
+    z-index: 94;
+}
+.instagram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 130px;
+    left: 1298px;
+    background: url("img/instagram.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 101;
+}
+.vitalina-posmashna-founder {
+    position: absolute;
+    width: 655px;
+    height: 58px;
+    top: 134px;
+    left: 87px;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 98;
+}
+.vitalina-posmashna {
+    position: relative;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+.founder-idea-website {
+    position: relative;
+    color: #b1b1b1;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+.founder-idea-website-ai {
+    position: relative;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+}
+.telegram {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 200px;
+    left: 1298px;
+    background: url("img/telegram.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 102;
+}
+.file {
+    position: absolute;
+    width: 308.417px;
+    height: 943.045px;
+    top: 75.62px;
+    left: 339.15px;
+    background: url("#") no-repeat center;
+    background-size: cover;
+    z-index: 95;
+}
+.astrology-tarot-technology {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    width: 460px;
+    height: 116px;
+    top: 247px;
+    left: 87px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    z-index: 99;
+}
+.facebook {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 270px;
+    left: 1298px;
+    background: url("img/facebook.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 103;
+}
+.unique-virtual-consultations {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 322px;
+    height: 87px;
+    top: 749px;
+    left: 1027px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: right;
+    z-index: 100;
+}
+.ellipse-2b {
+    position: absolute;
+    width: 1488px;
+    height: 160px;
+    top: 890px;
+    left: -48px;
+    bottom: -126px;
+    background: url("img/Ellipse 23.png")
+    no-repeat center;
+    background-size: cover;
+    z-index: 96;
+}
+.footer {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 0;
+    height: 434px;
+    z-index: 104;
+    overflow: hidden;
+}
+.flex-row-d {
+    position: relative;
+    width: 1146px;
+    height: 215px;
+    margin: 64px 0 0 69px;
+    z-index: 135;
+}
+.logo-2c {
+    position: absolute;
+    width: 214.774px;
+    height: 215px;
+    top: 0;
+    left: 0;
+    background: url("img/logo.svg")
+    no-repeat center;
+    background-size: cover;
+    z-index: 105;
+}
+.group-2d {
+    position: absolute;
+    width: 556px;
+    height: 180px;
+    top: 18px;
+    left: 300.774px;
+    z-index: 106;
+}
+.section {
+    position: absolute;
+    width: 110px;
+    height: 180px;
+    top: 0;
+    left: 0;
+    z-index: 107;
+}
+.shi {
+    position: relative;
+    width: 110px;
+    height: 66px;
+    margin: 0 0 0 0;
+    font-size: 0px;
+    z-index: 108;
+    overflow: visible auto;
+}
+.shi-2e {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 109;
+}
+.prediction {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 20px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 110;
+}
+.taro {
+    position: relative;
+    width: 110px;
+    height: 66px;
+    margin: 48px 0 0 0;
+    font-size: 0px;
+    z-index: 111;
+    overflow: visible auto;
+}
+.taro-2f {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 112;
+}
+.card-meaning {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 20px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 113;
+}
+.astrology-30 {
+    position: absolute;
+    width: 118px;
+    height: 180px;
+    top: 0;
+    left: 196px;
+    font-size: 0px;
+    z-index: 114;
+}
+.astrology-31 {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 115;
+}
+.astrology-block {
+    position: relative;
+    width: 118px;
+    height: 143px;
+    margin: 20px 0 0 0;
+    font-size: 0px;
+    z-index: 116;
+    overflow: visible auto;
+}
+.natal-chart-32 {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 0 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 117;
+}
+.zodiac-signs-33 {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 9px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 118;
+}
+.horoscope-34 {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 9px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 119;
+}
+.terminology-35 {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 9px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 120;
+}
+.section-36 {
+    position: absolute;
+    width: 156px;
+    height: 171px;
+    top: 0;
+    left: 400px;
+    z-index: 121;
+}
+.about-author {
+    position: relative;
+    width: 156px;
+    height: 66px;
+    margin: 0 0 0 0;
+    font-size: 0px;
+    z-index: 122;
+    overflow: visible auto;
+}
+.about-author-37 {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 123;
+}
+.vitalina-posmashnaya {
+    display: block;
+    position: relative;
+    height: 29px;
+    margin: 20px 0 0 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 29px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 124;
+}
+.about-author-38 {
+    position: relative;
+    width: 156px;
+    height: 49px;
+    margin: 56px 0 0 0;
+    font-size: 0px;
+    z-index: 125;
+    overflow: visible auto;
+}
+.contacts {
+    display: block;
+    position: relative;
+    height: 17px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-family: Cormorant Infant, var(--default-font-family);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 17px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 126;
+}
+.vpai-email {
+    display: block;
+    position: relative;
+    height: 12px;
+    margin: 20px 0 0 4px;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 12px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 127;
+}
+.vector-39 {
+    position: absolute;
+    width: 31.348px;
+    height: 34.848px;
+    top: 91.652px;
+    left: 1114.823px;
+    background: url("img/Vector 1(1).svg")
+    no-repeat center;
+    background-size: cover;
+    z-index: 135;
+}
+.line-3a {
+    position: relative;
+    width: 1440px;
+    height: 0.5px;
+    margin: 64.5px 0 0 0;
+    background: url(./assets/images/128d0334-ace2-4f05-a14a-ace268efda61.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 128;
+}
+.group-3b {
+    position: relative;
+    width: 1261px;
+    height: 50px;
+    margin: 20px 0 0 89px;
+    z-index: 129;
+}
+.navigation-3c {
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    top: 0;
+    left: 1071px;
+    z-index: 131;
+}
+.instagram-3d {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 140px;
+    background: url(./assets/images/e99d0a55-9ef7-42d4-99f8-9745e72f5489.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 132;
+}
+.telegram-3e {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 70px;
+    background: url(./assets/images/347dea86-176b-4a83-9430-a41fc14a9e67.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 133;
+}
+.facebook-3f {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background: url(./assets/images/9433cc88-2737-46ec-b17e-6e22cde2ef88.png)
+    no-repeat center;
+    background-size: cover;
+    z-index: 134;
+}
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    height: 20px;
+    top: 15px;
+    left: 0;
+    color: #b1b1b1;
+    font-family: Ysabeau Office, var(--default-font-family);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 130;
+}
